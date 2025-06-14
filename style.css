@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(247, 205, 117);
+}
+main{
+    height: 31rem;
+    width: 57rem;
+    margin: 8rem auto;
+    display: flex;
+}
+.bank{
+    width: 5rem;
+}
+.left{
+    background-color: #F2F2F2;
+    width: 35%;
+    padding: 1rem 3rem;
+    overflow-y: auto;
+    height: 100%;
+}
+.right{
+    background-color: white;
+    width: 65%;
+    overflow-y: auto;
+    padding: 1rem 3rem;
+    height: 100%;
+}
+header{
+    display: flex;
+
+}
