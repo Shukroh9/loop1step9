@@ -6,9 +6,11 @@ main{
     width: 57rem;
     margin: 8rem auto;
     display: flex;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
 }
 .bank{
-    width: 5rem;
+    width: 3rem;
+    
 }
 .left{
     background-color: #F2F2F2;
@@ -26,5 +28,25 @@ main{
 }
 header{
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    display: flex;
+    background-color: white;
+    height: 7rem;
+    width: 13rem;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    gap: 2px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
 }
