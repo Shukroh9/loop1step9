@@ -1,6 +1,11 @@
 body{
     background-color: rgb(247, 205, 117);
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 main{
     height: 31rem;
     width: 57rem;
