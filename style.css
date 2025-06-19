@@ -17,6 +17,11 @@ main{
     width: 3rem;
     
 }
+.operation{
+    width: 2rem;
+    background-color: red;
+    border-radius: 50%;
+}
 .left{
     background-color: #F2F2F2;
     width: 35%;
@@ -35,6 +40,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 2rem;
 }
 .container{
     display: flex;
