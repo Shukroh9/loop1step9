@@ -18,8 +18,8 @@ main{
     
 }
 .operation{
-    width: 2rem;
-    background-color: red;
+    width: 1.5rem;
+    border: 1px solid gray;
     border-radius: 50%;
 }
 .left{
@@ -41,6 +41,15 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: 2rem;
+}
+.leftheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.balance{
+    border-bottom: 1px solid black;
+    padding-bottom: 3rem;
 }
 .container{
     display: flex;
@@ -66,8 +75,8 @@ header{
     display: flex;
     flex-direction: column;
     padding: 0;
-    gap: 3px;
-    background-color: rebeccapurple;
+    gap: 5px;
+    width: 18rem;
 }
 .activities{
     display: flex;
@@ -80,5 +89,12 @@ h3{
 .history{
     margin-top: 0;
 }
-.amount{
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.accountbalance{
+    font-weight:bolder;
+    font-size: 1.5rem;
 }
