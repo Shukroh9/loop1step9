@@ -46,9 +46,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rebeccapurple;
     width: 13rem; 
-    margin-right: ;
 }
 .balance{
     border-bottom: 1px solid black;
