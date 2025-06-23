@@ -51,6 +51,7 @@ header{
 .balance{
     border-bottom: 1px solid black;
     padding-bottom: 3rem;
+    background-color: aquamarine;
 }
 .date{
     margin-top: 0.5rem;
@@ -95,6 +96,7 @@ h3{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    background-color: antiquewhite;
 }
 .accountbalance{
     font-weight:bolder;
