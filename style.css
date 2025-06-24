@@ -19,6 +19,7 @@ main{
 }
 .operation{
     width: 1.5rem;
+    padding: 2px;
     border: 1px solid gray;
     border-radius: 50%;
 }
@@ -40,18 +41,21 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem;
 }
 .leftheader{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 13rem; 
+    width: 14rem; 
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 .balance{
     border-bottom: 1px solid black;
     padding-bottom: 3rem;
-    background-color: aquamarine;
+    width: 30rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 .date{
     margin-top: 0.5rem;
@@ -91,14 +95,31 @@ h3{
 }
 .history{
     margin-top: 0;
+    color: rgb(184, 184, 184);
+    font-weight: 500;
 }
 .content{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: antiquewhite;
 }
 .accountbalance{
-    font-weight:bolder;
-    font-size: 1.5rem;
+    font-weight:900;
+    font-size: 25px;
+}
+.amount{
+    color: rgb(136, 152, 198);
+    font-size: 18px;
+    font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.green{
+    color: rgb(138, 206, 95);
+}
+.container:hover{
+    border: 2px solid rgb(136, 152, 198);
+    cursor: pointer;
+}
+.midblue{
+    border: 2px solid rgb(136, 152, 198);
 }
